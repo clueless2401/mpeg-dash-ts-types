@@ -6,7 +6,8 @@
   "scripts": {
     "ts-gen": "ts-node ./src/generate.ts",
     "makelib": "tsc -p ./src/generated",
-    "setup": "npm install"
+    "setup": "npm install",
+    "test": "exit 0"
   },
   "repository": {
     "type": "github",
