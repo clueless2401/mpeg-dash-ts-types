@@ -10,10 +10,13 @@
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/path/to/repo.git"
+    "url": "https://github.com/clueless2401/mpeg-dash-ts-types"
+  },
+  "publishConfig": {
+    "clueless2401:registry": "https://npm.pkg.github.com"
   },
   "author": "Vikram",
-  "license": "GPL",
+  "license": "MIT",
   "dependencies": {
     "ts-loader": "2.2.2",
     "ts-node": "3.3.0",
