@@ -1,0 +1,26 @@
+{
+  "name": "mpeg-dash-ts-types",
+  "version": "0.0.1",
+  "description": "Generate types for MPEG DASH (MPD)",
+  "main": "index.js",
+  "scripts": {
+    "ts-gen": "ts-node ./src/generate.ts",
+    "makelib": "tsc -p ./src/generated",
+    "setup": "npm install"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/clueless2401/mpeg-dash-ts-types"
+  },
+  "publishConfig": {
+    "clueless2401:registry": "https://npm.pkg.github.com"
+  },
+  "author": "Vikram",
+  "license": "MIT",
+  "dependencies": {
+    "ts-loader": "2.2.2",
+    "ts-node": "3.3.0",
+    "typescript": "3.9.9",
+    "xsd2ts": "^0.9.17"
+  }
+}
